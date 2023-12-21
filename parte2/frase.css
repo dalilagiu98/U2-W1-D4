@@ -30,12 +30,12 @@ body {
         opacity: 0;
         transform: translateY(-70px);
     }
-
+    
     30% {
         opacity: 1;
         transform: translateY(-30px);
     }
-
+    
     60%{
         opacity: 1;
         transform: translateY(0px);
@@ -50,14 +50,15 @@ body {
     opacity: 0;
     position: absolute;
     left: 5px;
+    animation: fadeOut 5s linear infinite;
 }
 
 #word1 {
-    animation: fadeOut 5s linear 0s backwards;
+    animation-delay: 0s;
 }
 #word2 {
-    animation: fadeOut 5s linear 5s backwards;
+    animation-delay: 5s;
 }
 #word3 {
-    animation: fadeOut 5s linear 10s backwards;
+    animation-delay: 10s;
 }

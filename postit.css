@@ -43,6 +43,7 @@ p {
     box-shadow: 7px 10px 22px -5px rgba(0,0,0,0.64);
     animation: fadeIn 0.5s ease forwards;
     opacity: 0;
+    transition: transform 200ms linear 0s;
 }
 
 .postit:nth-child(1) {
@@ -92,6 +93,7 @@ p {
 }
 
 .postit:hover {
+    
     transform: scale(1.15);
     -webkit-box-shadow: 7px 10px 22px -5px #000000; 
     box-shadow: 7px 10px 22px -5px #000000;
